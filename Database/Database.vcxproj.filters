@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SQLDataFormat">
+      <UniqueIdentifier>{3ce5b20e-5477-4d69-bac6-a3fa85f27cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packet">
+      <UniqueIdentifier>{6d9f3e9c-8f6c-4525-a0b0-1c94b9ed2fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IOCP">
+      <UniqueIdentifier>{7e2188d4-7e86-4537-93f8-a00ca118fc39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SQLProcessor">
+      <UniqueIdentifier>{5681d864-8340-4c2d-93bd-032d8afdbc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SQLDataFormat\Query">
+      <UniqueIdentifier>{f6ba90a1-2c15-4323-9d50-d47642e8aac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SQLDataFormat\Query\Account">
+      <UniqueIdentifier>{472cc0f9-31da-4490-b69d-d84781e602eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCP\CIOCP.cpp">
+      <Filter>Header Files\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLProcessor\SQLProcessor.cpp">
+      <Filter>Header Files\SQLProcessor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SQLDataFormat\user_info.h">
+      <Filter>Header Files\SQLDataFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCP\CIOCP.h">
+      <Filter>Header Files\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PacketProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MessageProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Packet\AccountInfo.h">
+      <Filter>Header Files\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLProcessor\SQLProcessor.h">
+      <Filter>Header Files\SQLProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLProcessor\Query\Account\AccountQuery.h">
+      <Filter>Header Files\SQLDataFormat\Query\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Protocol\SQLCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

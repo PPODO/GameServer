@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\user\source\repos\Server_Library\Network\Packet\BasePacket.hpp(95,86): warning C4267: 'argument': conversion from 'size_t' to 'const uint16_t', possible loss of data
+D:\작업물\Visual Studio\Project_MF\Client-test\main.cpp(52,47): message : see reference to function template instantiation 'SERVER::NETWORK::PACKET::PACKET_STRUCT SERVER::NETWORK::PACKET::UTIL::Serialize<AccountInfo>(const SERVER::NETWORK::PACKET::BasePacket &)' being compiled
+     Creating library D:\작업물\Visual Studio\Project_MF\x64\Release\Client-test.lib and object D:\작업물\Visual Studio\Project_MF\x64\Release\Client-test.exp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1836 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Client-test.vcxproj -> D:\작업물\Visual Studio\Project_MF\x64\Release\Client-test.exe

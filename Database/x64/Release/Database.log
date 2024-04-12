@@ -1,0 +1,61 @@
+﻿  CIOCP.cpp
+C:\Users\user\source\repos\Server_Library\Functions\MySQL\MySQL.hpp(223,95): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\user\source\repos\Server_Library\Functions\MySQL\MySQL.hpp(219,40): warning C4101: 'exception': unreferenced local variable
+C:\Users\user\source\repos\Server_Library\Network\Packet\BasePacket.hpp(95,86): warning C4267: 'argument': conversion from 'size_t' to 'const uint16_t', possible loss of data
+D:\작업물\Visual Studio\Project_MF\Database\IOCP\CIOCP.cpp(86,23): message : see reference to function template instantiation 'SERVER::NETWORK::PACKET::PACKET_STRUCT SERVER::NETWORK::PACKET::UTIL::Serialize<AccountInfo>(const SERVER::NETWORK::PACKET::BasePacket &)' being compiled
+D:\Microsoft Visual Studio\VC\Tools\MSVC\14.36.32532\include\utility(275,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty=USHORT
+          ]
+          and
+          [
+              _Ty1=const uint8_t
+          ]
+D:\Microsoft Visual Studio\VC\Tools\MSVC\14.36.32532\include\xmemory(677,68): message : see reference to function template instantiation 'std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>,0>(std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>> &&) noexcept(false)' being compiled
+D:\Microsoft Visual Studio\VC\Tools\MSVC\14.36.32532\include\list(586,25): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>>>(_Alloc &,_Objty *const ,std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>,std::_Default_allocator_traits<std::allocator<std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>>>::void_pointer>>,
+              _Ty=std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>,
+              _Objty=std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>
+          ]
+D:\Microsoft Visual Studio\VC\Tools\MSVC\14.36.32532\include\xhash(621,53): message : see reference to function template instantiation 'std::_List_node_emplace_op2<std::allocator<std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_List_node_emplace_op2<std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>>>(_Alnode &,std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>,
+              _Alloc=std::allocator<std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>>,
+              _Alnode=std::allocator<std::_List_node<std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>,std::_Default_allocator_traits<std::allocator<std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>>>::void_pointer>>
+          ]
+D:\Microsoft Visual Studio\VC\Tools\MSVC\14.36.32532\include\unordered_map(274,20): message : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool> std::_Hash<std::_Umap_traits<_Kty,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>>>(std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>,
+              _Kty=uint8_t,
+              _Hasher=std::hash<uint8_t>,
+              _Keyeq=std::equal_to<uint8_t>,
+              _Alloc=std::allocator<std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>>
+          ]
+D:\작업물\Visual Studio\Project_MF\Database\IOCP\CIOCP.cpp(14,20): message : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool> std::unordered_map<uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>,std::hash<uint8_t>,std::equal_to<uint8_t>,std::allocator<_Ty>>::insert<std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>>,0>(_Valty &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>,
+              _Valty=std::pair<unsigned short,std::_Binder<std::_Unforced,void (__cdecl CSQLIOCP::* )(SERVER::NETWORK::PACKET::PacketQueueData *),CSQLIOCP *,const std::_Ph<1> &>>
+          ]
+D:\작업물\Visual Studio\Project_MF\Database\IOCP\CIOCP.cpp(14,27): message : see the first reference to 'std::unordered_map<uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>,std::hash<uint8_t>,std::equal_to<uint8_t>,std::allocator<std::pair<const uint8_t,std::function<void (SERVER::NETWORK::PACKET::PacketQueueData *)>>>>::insert' in 'CSQLIOCP::CSQLIOCP'
+  SQLProcessor.cpp
+C:\Users\user\source\repos\Server_Library\Functions\MySQL\MySQL.hpp(223,95): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\user\source\repos\Server_Library\Functions\MySQL\MySQL.hpp(219,40): warning C4101: 'exception': unreferenced local variable
+D:\작업물\Visual Studio\Project_MF\Database\SQLProcessor\Query\Account\AccountQuery.h(19,48): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=int32_t
+          ]
+D:\작업물\Visual Studio\Project_MF\Database\SQLProcessor\Query\Account\AccountQuery.h(26,21): warning C4267: 'initializing': conversion from 'size_t' to 'int32_t', possible loss of data
+     Creating library D:\작업물\Visual Studio\Project_MF\x64\Release\Database.lib and object D:\작업물\Visual Studio\Project_MF\x64\Release\Database.exp
+  Generating code
+  1 of 2897 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Database.vcxproj -> D:\작업물\Visual Studio\Project_MF\x64\Release\Database.exe

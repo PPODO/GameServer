@@ -1,0 +1,28 @@
+[2024-3-17 1:1:25] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:7:26] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:7:30] Accept New Client!
+[2024-3-17 1:7:33] Try Disconnect Client!
+[2024-3-17 1:7:33] Disconnect Client!
+[2024-3-17 1:7:42] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:7:47] Accept New Client!
+[2024-3-17 1:7:47] Try Disconnect Client!
+[2024-3-17 1:7:47] Disconnect Client!
+[2024-3-17 1:11:25] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:11:51] Accept New Client!
+[2024-3-17 1:11:56] Try Disconnect Client!
+[2024-3-17 1:11:56] Disconnect Client!
+[2024-3-17 1:13:59] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:15:13] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:16:3] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:16:9] Accept New Client!
+[2024-3-17 1:16:17] Try Disconnect Client!
+[2024-3-17 1:16:17] Disconnect Client!
+[2024-3-17 1:16:31] Accept New Client!
+[2024-3-17 1:16:33] Try Disconnect Client!
+[2024-3-17 1:16:33] Disconnect Client!
+[2024-3-17 1:16:39] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:16:41] Accept New Client!
+[2024-3-17 1:17:25] Initialize IOCP : Worker Thread Creation Succeeded! - Thread Count : 40
+[2024-3-17 1:17:31] Accept New Client!
+[2024-3-17 1:17:37] Try Disconnect Client!
+[2024-3-17 1:17:37] Disconnect Client!
