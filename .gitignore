@@ -1,0 +1,51 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+#folder
+.vs/
+x64/
+Server_Library/
+Client-test/
+Server_test/
+Util/
+
+#file
+*.log
+*.ini
+Server_Library/*.*
+x64/Debug/*.pdb
+x64/Debug/*.exe
+x64/Release/*.pdb
+x64/Release/*.exe
+/**/*.vcxproj
+/**/*.vcxproj.filters
+/**/*.vcxproj.user
